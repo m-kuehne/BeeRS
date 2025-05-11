@@ -1,5 +1,5 @@
 """
-   Copyright 2025 ETH Zurich, Marino Kühne
+   Copyright 2025 ETH Zürich, Marino Kühne
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
