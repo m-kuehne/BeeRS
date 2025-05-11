@@ -1,7 +1,20 @@
-import os
-import time
-from functools import partial
+"""
+   Copyright 2025 ETH Zurich, Marino Kühne
 
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+"""
+
+from functools import partial
 import jax
 import jax.experimental.sparse as sp
 import jax.numpy as jnp
@@ -10,11 +23,6 @@ import numpy as np
 import scipy as sc
 from scipy.sparse import csr_array
 from tqdm import tqdm
-
-# Flag significantly improves projection and gmres time, see
-# https://github.com/jax-ml/jax/issues/9259
-os.environ["XLA_FLAGS"] = "--xla_cpu_use_thunk_runtime=false"
-
 
 class BeersGpu:
     """Solve a recommender system optimization.

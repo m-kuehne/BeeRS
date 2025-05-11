@@ -10,7 +10,7 @@ import sys
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "BeeRS"
-copyright = "2025, Marino Kühne and ETH Zürich"
+copyright = "2025, ETH Zürich, Marino Kühne"
 author = "Marino Kühne"
 release = "1.0.0"
 

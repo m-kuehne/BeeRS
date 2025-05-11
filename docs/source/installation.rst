@@ -10,7 +10,7 @@ Installation from Source
 
    git clone https://github.com/m-kuehne/BeeRS.git
    cd BeeRS
-   python setup.py install
+   pip install -r /path/to/requirements.txt
 
 Additional Notes
 ----------------
