@@ -7,7 +7,7 @@ This repository contains the code accompanying our publication.
 
 ## Citing BeeRS
 
-If you use BeeRS in your work please cite [our paper](https://doi.org/10.48550/arXiv.2502.12973).
+If you use BeeRS in your work please cite [our paper](https://proceedings.mlr.press/v267/kuhne25a.html).
 
 ```
 @InProceedings{kuehne2025,
